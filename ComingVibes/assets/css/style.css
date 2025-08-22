@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1920&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wisam-container {
+  max-width: 600px;
+}
+
+.wisam-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.wisam-container p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.wisam-countdown {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.wisam-email-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.wisam-email-form input {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.wisam-email-form button {
+  padding: 12px;
+  background: #facc15;
+  color: #1f2937;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.wisam-email-form button:hover {
+  background: #eab308;
+}
+
+.wisam-footer {
+  margin-top: 40px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.wisam-footer a {
+  color: #facc15;
+  text-decoration: none;
+}
+
+.wisam-footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .wisam-container h1 {
+    font-size: 2rem;
+  }
+  .wisam-countdown {
+    font-size: 1.5rem;
+  }
+}
